@@ -1,0 +1,86 @@
+:root {
+    --nav-color-black-: #2b2f33;
+    --gold-dark-: #62542c;
+    --gold-light-: #ab9d74;
+    --white-: #c4c4bf;
+}
+body { 
+    margin: 0; 
+    background-image: url(./src/img/waves.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+ }
+h1, h2, h3, p, a { font-family: 'Libre Franklin', sans-serif; color: var(--nav-color-black-); }
+h1 { font-weight: 900; font-size: 3rem; }
+h2 { font-weight: 700; font-size: 2rem; }
+h3 { font-weight: 700; font-size: 1.5rem; }
+p { font-weight: 500; font-size: 1rem; }
+a, a:visited { font-weight: 700; text-decoration: none; }
+
+img {
+    height: 25%; 
+    width: 25%; 
+    min-height: 250px;
+    min-width: 250px;
+    box-shadow: 0 10px 10px -4px rgb(0, 0, 0);
+}
+
+nav {
+    background: var(--nav-color-black-);
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 6px 6px -4px rgb(0, 0, 0);
+}
+
+.topNav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.topNav a { 
+    color: var(--white-);
+    margin: 10px 10px 10px 10px;
+}
+
+/* POST */
+
+::-webkit-scrollbar {
+    height: 7px;
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--nav-color-black-);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-image: var(--gold-light-);
+    border-radius: 30px;
+  }
+
+.ptsig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--nav-color-black-);
+    height: 40px;
+    width: 100%;
+}
+
+.ptsig img { 
+    height: 18px;
+    width: 100px;
+    min-width: 100px;
+    min-height: 10px;
+    border: none;
+    transform: translateY(4px);
+    box-shadow: none;
+}
+.ptsig p { 
+    color: var(--white-); 
+    font-size: .7rem;
+}

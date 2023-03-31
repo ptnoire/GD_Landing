@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "parcel": "^2.8.3"
+  },
+  "name": "glory_days",
+  "version": "1.0.0",
+  "default": "index.html",
+  "devDependencies": {},
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "keywords": [],
+  "author": "PT Anderson",
+  "license": "ISC",
+  "description": ""
+}
